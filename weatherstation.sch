@@ -393,17 +393,6 @@ F 3 "" H 3000 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 3900 2200 3600
-$Comp
-L Connector:Raspberry_Pi_2_3 J?
-U 1 1 60BF713D
-P 2300 5200
-F 0 "J?" H 2300 6681 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 2300 6590 50  0000 C CNN
-F 2 "" H 2300 5200 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2300 5200 50  0001 C CNN
-	1    2300 5200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1900 6500 2000 6500
 Wire Wire Line
@@ -455,18 +444,6 @@ Wire Notes Line
 	10250 3200 10250 4750
 Wire Notes Line
 	7150 3200 10250 3200
-Text Label 6650 4100 0    50   ~ 0
-SpeedInput
-Text Label 6650 4500 0    50   ~ 0
-Speed-
-Text Label 6650 3700 0    50   ~ 0
-Speed+
-Wire Wire Line
-	7250 4500 6450 4500
-Wire Wire Line
-	7250 4100 6450 4100
-Wire Wire Line
-	7250 3700 6450 3700
 Text Label 10350 4200 0    50   ~ 0
 SpeedOutput
 Connection ~ 9900 4200
@@ -636,4 +613,27 @@ Wire Wire Line
 	7700 1350 8300 1350
 Wire Wire Line
 	7700 1450 8300 1450
+Wire Wire Line
+	7250 3700 6450 3700
+Wire Wire Line
+	7250 4100 6450 4100
+Wire Wire Line
+	7250 4500 6450 4500
+Text Label 6650 3700 0    50   ~ 0
+Speed+
+Text Label 6650 4500 0    50   ~ 0
+Speed-
+Text Label 6650 4100 0    50   ~ 0
+SpeedInput
+$Comp
+L Connector:Raspberry_Pi_2_3 J?
+U 1 1 60BF713D
+P 2300 5200
+F 0 "J?" H 2300 6681 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 2300 6590 50  0000 C CNN
+F 2 "" H 2300 5200 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2300 5200 50  0001 C CNN
+	1    2300 5200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
