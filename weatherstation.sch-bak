@@ -24,8 +24,6 @@ F 3 "~" H 1550 1350 50  0001 C CNN
 	1    1550 1350
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1900 1200 1550 1200
 $Comp
 L Device:D D3
 U 1 1 60C1D940
@@ -664,7 +662,6 @@ F 3 "~" H 900 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 1200 1550 1200
-Connection ~ 1550 1200
 $Comp
 L power:GND #PWR0116
 U 1 1 60EDBC20
@@ -879,4 +876,7 @@ F 3 "~" H 2450 1350 50  0001 C CNN
 	1    2450 1350
 	1    0    0    -1  
 $EndComp
+Connection ~ 1550 1200
+Wire Wire Line
+	1900 1200 1550 1200
 $EndSCHEMATC

@@ -748,19 +748,6 @@ F 3 "" H 9650 1000 50  0001 C CNN
 	1    9650 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR0107
-U 1 1 61007AFD
-P 8450 1200
-F 0 "#PWR0107" H 8450 1050 50  0001 C CNN
-F 1 "+3.3V" H 8465 1373 50  0000 C CNN
-F 2 "" H 8450 1200 50  0001 C CNN
-F 3 "" H 8450 1200 50  0001 C CNN
-	1    8450 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8450 1200 8750 1200
 Text Label 8450 2200 0    50   ~ 0
 ADC_Dout
 Wire Wire Line
@@ -781,13 +768,6 @@ Wire Wire Line
 Connection ~ 9650 2100
 Wire Wire Line
 	9650 2100 9650 2500
-Wire Wire Line
-	8850 2000 8750 2000
-Wire Wire Line
-	8750 2000 8750 1200
-Connection ~ 8750 1200
-Wire Wire Line
-	8750 1200 8850 1200
 Wire Wire Line
 	8850 2400 8850 2500
 Wire Wire Line
@@ -879,4 +859,6 @@ $EndComp
 Connection ~ 1550 1200
 Wire Wire Line
 	1900 1200 1550 1200
+NoConn ~ 8850 2000
+NoConn ~ 8850 1200
 $EndSCHEMATC
