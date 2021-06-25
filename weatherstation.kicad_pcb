@@ -193,7 +193,7 @@
     (descr "Through hole straight pin header, 2x13, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x13 2.54mm double row")
     (path /60FB768E)
-    (fp_text reference J1 (at 1.27 -2.33) (layer F.SilkS)
+    (fp_text reference J1 (at 1.27 33.02) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Conn_02x13_Odd_Even (at 1.27 32.81) (layer F.Fab)
