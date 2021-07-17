@@ -320,8 +320,6 @@ F 3 "" H 4400 3600 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	5000 3300 5000 4850
-Wire Notes Line
-	1900 3300 5000 3300
 Text Label 5100 4300 0    50   ~ 0
 CH1
 Connection ~ 4650 4300
@@ -478,10 +476,6 @@ Text Label 1550 4600 0    50   ~ 0
 Dir-
 Text Label 1550 3800 0    50   ~ 0
 Dir+
-Wire Notes Line
-	5000 4850 1900 4850
-Wire Notes Line
-	1900 4850 1900 3300
 $Comp
 L power:+5V #PWR0113
 U 1 1 60C4BD4E
@@ -861,4 +855,10 @@ F 3 "~" H 6550 4850 50  0001 C CNN
 	1    6550 4850
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	650  3300 650  4850
+Wire Notes Line
+	650  3300 5000 3300
+Wire Notes Line
+	650  4850 5000 4850
 $EndSCHEMATC

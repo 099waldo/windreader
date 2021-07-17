@@ -502,21 +502,8 @@ F 3 "~" H 900 1200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1100 1200 1550 1200
-$Comp
-L power:GND #PWR0116
-U 1 1 60EDBC20
-P 1250 1400
-F 0 "#PWR0116" H 1250 1150 50  0001 C CNN
-F 1 "GND" H 1255 1227 50  0000 C CNN
-F 2 "" H 1250 1400 50  0001 C CNN
-F 3 "" H 1250 1400 50  0001 C CNN
-	1    1250 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1100 1300 1250 1300
-Wire Wire Line
-	1250 1300 1250 1400
 Text Label 5700 1450 0    50   ~ 0
 CH0
 Wire Wire Line
@@ -861,4 +848,9 @@ Wire Notes Line
 	650  3300 5000 3300
 Wire Notes Line
 	650  4850 5000 4850
+Wire Wire Line
+	1250 1300 1250 1500
+Wire Wire Line
+	1250 1500 1550 1500
+Connection ~ 1550 1500
 $EndSCHEMATC
